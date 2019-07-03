@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: k8s-todo
-        image: tshaiman/hello-node
+        image: itsaurabh/hello-node
         command: ["node", "server_db.js"]
         ports:
         - name: nodejs-port

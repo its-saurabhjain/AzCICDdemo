@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: k8s-demo
-    image: tshaiman/hello-node
+    image: itsaurabh/hello-node
     ports:
     - containerPort: 7777
     volumeMounts:
